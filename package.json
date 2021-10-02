@@ -1,0 +1,21 @@
+{
+  "name": "electron-chrome",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . electron-chrome --platform=darwin --arch=x64"
+  },
+  "repository": "git@github.com:kimizuka/electron-chrome.git",
+  "author": "kimizuka <f.kimizuka@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "open": "^8.2.1",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "electron": "^15.1.0",
+    "electron-packager": "^15.4.0"
+  }
+}
